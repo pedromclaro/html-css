@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px 10px 10px 50px;
+            margin: auto;      
+        }
+
+        nav {
+            background-color: rgb(100, 100, 100);
+            padding: 2.5px;
+            box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.34);
+        }
+
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1.5em;
+            padding: 15px;
+            
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 4px;
+        }
+
+        article {
+            background-color: rgba(172, 172, 172, 0.699);
+            border-radius: 4px;
+            padding: 9px;
+        }
+
+        article > h2 {
+            margin: 0px;
+        }
+
+        article > aside {
+            background-color: rgb(91, 91, 91);
+            color: white;
+            text-align: right;
+            padding: 1px;
+        }
+
+        footer {
+            background-color: rgb(46, 46, 46);
+            color: white;
+            text-align: center;
+            margin: auto;
+            padding: 1px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio harum vitae, officiis maiores maxime est ab quos aliquam praesentium quae consequuntur nemo accusamus tenetur? Nostrum iusto laborum ut quis possimus.</p>
+                <aside>
+                    <p>Artigo escrito por Camila Martins</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Pedro Afonso</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

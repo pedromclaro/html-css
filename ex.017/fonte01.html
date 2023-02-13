@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica,
+            /* 
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            
+            /* weight = peso / width = largura / height = altura */
+
+            /* font-weight é o peso da fonte, valores aceitos para algumas fontes: ligther normal bold bolder */
+        }
+
+        h1 {
+            /*font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            /* Posso resumir a declaração acima, usando shorthand "font" porém seguindo a sequência: 
+            
+            font-style -> font-weigth -> font-size -> font-family
+
+            EXEMPLO ABAIXO v */
+            font: italic bolder 3em 'Courier New', monospace;
+        }
+
+        h2 {
+            font: bold 2em 'Courier New';
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea, minus sunt odio nemo quae at! Accusantium explicabo odit, dolor alias nam beatae voluptatem? Animi fuga eligendi id laboriosam magnam?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde necessitatibus facere officia placeat? Nobis rerum, reiciendis quo iste nesciunt in nulla ipsum, sunt laboriosam temporibus nemo quisquam omnis esse?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores hic distinctio nostrum, tempore ducimus nisi sapiente ex expedita esse sunt unde animi omnis natus nam at ipsam, magni magnam. Mollitia.</p>
+</body>
+</html>
