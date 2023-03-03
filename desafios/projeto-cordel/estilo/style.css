@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: lightslategray;
+}
+
+header {
+    min-width: 150px;
+    background-color: #2b3136;
+    
+}
+
+div#imgfundo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-image: url(../imagens/Design\ sem\ nome.png);
+    background-position: top right;
+
+}
+div#imgfundo a {
+    color: white;
+    text-decoration: none;
+}
