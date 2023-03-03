@@ -22,10 +22,14 @@ div#imgfundo {
     background-image: url(../imagens/Design\ sem\ nome.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top right;
+    background-position: bottom right;
 
 }
 div#imgfundo a {
     color: white;
     text-decoration: none;
+}
+
+div#imgfundo h1, p {
+    padding: 5px;
 }
