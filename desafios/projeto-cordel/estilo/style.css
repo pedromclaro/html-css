@@ -15,8 +15,8 @@ header {
 }
 
 div#imgfundo {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     color: white;
     background-image: url(../imagens/Design\ sem\ nome.png);
     background-repeat: no-repeat;
@@ -27,6 +27,7 @@ div#imgfundo {
 div#imgfundo a {
     color: white;
     text-decoration: none;
+    transition-duration: 0.5s;
 }
 
 div#imgfundo h1 {
@@ -35,4 +36,12 @@ div#imgfundo h1 {
 
 div#imgfundo p {
     padding: 10px;
+}
+
+div#imgfundo a:hover {
+    font-size: 1.1em;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
