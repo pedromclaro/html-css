@@ -11,13 +11,12 @@ html, body {
 
 header {
     min-width: 150px;
-    background-color: #2b3136;
-    
+    background-color: #000000;   
 }
 
 div#imgfundo {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
     background-image: url(../imagens/Design\ sem\ nome.png);
     background-repeat: no-repeat;
@@ -31,10 +30,9 @@ div#imgfundo a {
 }
 
 div#imgfundo h1 {
-    padding-left: 5px;
-    padding-top: 5px;
+    padding: 10px;
 }
 
 div#imgfundo p {
-    padding: 10px 5px 5px 5px;
+    padding: 10px;
 }
