@@ -40,7 +40,8 @@ div#imgfundo p {
 
 div#imgfundo a:hover {
     font-size: 1.1em;
-    color: black;
+    text-decoration: underline;
+    color: #000000;
     background-color: white;
     padding: 5px;
     border-radius: 5px;
