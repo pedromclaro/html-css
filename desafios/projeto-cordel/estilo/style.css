@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 * {
     margin: 0px;
@@ -8,8 +8,9 @@
 }
 
 :root {
-    --fonte00: 'Passion One', cursive;
-    --fonte01: 'Mynerve', cursive;
+    --fonte00: 'DM Serif Display', serif;
+    --fonte01: 'Indie Flower', cursive;
+
     
 }
 
@@ -41,6 +42,8 @@ div#imgfundo a {
 }
 
 div#imgfundo h1 {
+    line-height: 0.9em;
+    font-family: var(--fonte00);
     font-weight: bolder;
     padding: 5px;
     padding-left: 20px;
