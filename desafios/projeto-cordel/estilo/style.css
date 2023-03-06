@@ -70,7 +70,9 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.329);
-    max-width: 400px;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 footer {
