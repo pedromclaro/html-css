@@ -30,6 +30,7 @@
             font-family: 'Noto Sans';
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -46,6 +47,12 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
         }
 
         tbody > tr:nth-child(2n) {
@@ -89,7 +96,7 @@
                     <td class="num">16 615 526</td>
                 </tr>
                 <tr>
-                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/20px-Bandeira_da_Bahia.svg.png" alt="Bandeira bahia">Bahia</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/20px-Bandeira_da_Bahia.svg.png" alt="Bandeira Bahia">Bahia</td>
                     <td class="num">14 659 023</td>
                 </tr>
                 <tr>
